@@ -67,11 +67,6 @@ POSTS & CONTENT STYLES
     .entry-content {
       padding: 1.5em 1.5em 0;
 
-      p {
-        margin: 0 0 1.5em;
-      }
-
-
       ul, ol, table, dl {}
 
       ul, ol {
@@ -239,4 +234,8 @@ POSTS & CONTENT STYLES
   // the tag output
   .tags {
     margin: 0;
+  }
+
+  .module {
+    margin-bottom: 80px;
   }

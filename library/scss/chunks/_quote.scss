@@ -1,0 +1,16 @@
+.module--quote {
+  background: $f-blue;
+  border: 1px solid $border-color;
+  padding: 2em;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 2px;
+  width: 800px;
+  margin-left: auto; margin-right: auto;
+
+  &__content {
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-bottom: 0;
+  }
+}

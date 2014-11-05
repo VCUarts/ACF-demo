@@ -8,6 +8,7 @@ HEADER STYLES
 
   #logo {
     margin: 0.75em 0;
+    @include span(first 6 of 12);
 
     a {
       color: $white;

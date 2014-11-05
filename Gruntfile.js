@@ -173,5 +173,5 @@ module.exports = function(grunt) {
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
     grunt.registerTask('init', ['build']);
     grunt.registerTask('dev', ['browserSync','watch']);
-    grunt.registerTask('build', ['imagemin', 'compass:dist', 'autoprefixer', 'cmq', 'cssmin', 'concat', 'uglify','devcode:dist']);
+    grunt.registerTask('build', ['compass:dist', 'autoprefixer', 'cmq', 'cssmin', 'concat', 'uglify','devcode:dist']);
 };

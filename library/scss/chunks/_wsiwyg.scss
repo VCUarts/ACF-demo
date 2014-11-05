@@ -1,0 +1,11 @@
+.module--wsiwyg {
+  max-width: 800px;
+  margin-left: auto; margin-right: auto;
+}
+
+.wsiwyg-one {
+  @include span(first 6 of 12);
+}
+.wsiwyg-two {
+  @include span(last 6 of 12);
+}
