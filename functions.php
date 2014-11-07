@@ -27,9 +27,6 @@ function bones_ahoy() {
   // let's get language support going, if you need it
   load_theme_textdomain( 'bonestheme', get_template_directory() . '/library/translation' );
 
-  // USE THIS TEMPLATE TO CREATE CUSTOM POST TYPES EASILY
-  require_once( 'library/custom-post-type.php' );
-
   // launching operation cleanup
   add_action( 'init', 'bones_head_cleanup' );
   // A better title
@@ -273,9 +270,9 @@ function get_development_scripts(){
     return "
     <script src='//localhost:35729/livereload.js'></script> 
 
-    <script src='//172.23.68.12:3000/socket.io/socket.io.js'></script>
-    <script>var ___socket___ = io.connect('http://172.23.68.12:3000');</script>
-    <script src='//172.23.68.12:3001/client/browser-sync-client.0.8.2.js'></script>";
+    <script src='//172.23.51.188:3000/socket.io/socket.io.js'></script>
+    <script>var ___socket___ = io.connect('http://172.23.51.188:3000');</script>
+    <script src='//172.23.51.188:3001/client/browser-sync-client.0.8.2.js'></script>";
   }
 
 }
