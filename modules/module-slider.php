@@ -12,12 +12,10 @@
             <?php
             // loop through the rows of data
             while ( have_rows('slides') ) : the_row();
-
-            $image = get_sub_field('image');
             ?>
             
             <li>
-              <img src="<?php echo $image[url]; ?>" />
+              <img src="<?php the_sub_field('image'); ?>" />
               <p class="slider__caption"><?php the_sub_field('caption'); ?></p>
             </li>
            

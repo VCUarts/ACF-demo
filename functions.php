@@ -270,9 +270,9 @@ function get_development_scripts(){
     return "
     <script src='//localhost:35729/livereload.js'></script> 
 
-    <script src='//172.23.51.188:3000/socket.io/socket.io.js'></script>
-    <script>var ___socket___ = io.connect('http://172.23.51.188:3000');</script>
-    <script src='//172.23.51.188:3001/client/browser-sync-client.0.8.2.js'></script>";
+    <script src='//172.23.74.146:3000/socket.io/socket.io.js'></script>
+    <script>var ___socket___ = io.connect('http://172.23.74.146:3000');</script>
+    <script src='//172.23.74.146:3001/client/browser-sync-client.0.8.2.js'></script>";
   }
 
 }
